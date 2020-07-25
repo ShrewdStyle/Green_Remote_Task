@@ -1,4 +1,5 @@
 @import "styles/config";
+@import "styles/navbar";
 @font-face {
   src: url(./assets/Fonts/Gotham-Light.otf);
   font-family: gotham;
@@ -12,4 +13,29 @@
 
 body {
   font-family: gotham;
+}
+
+// ------------- UTILITIES --------------
+
+// Buttons
+
+.btnLoginMain {
+  display: inline-block;
+  padding: 1.2rem 3rem;
+  border: solid 3px green;
+  background-color: green;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: all 0.3s;
+  outline: none;
+  border-radius: 1000px;
+  color: snow;
+  margin: 4rem 0.2rem;
+
+  &:hover {
+    color: green;
+    background-color: transparent;
+    transform: scale(1.1) perspective(1px);
+  }
 }

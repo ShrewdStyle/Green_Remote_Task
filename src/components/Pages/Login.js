@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
+import LoginForm from "../Layout/Login/LoginForm";
 
 const Login = () => {
   return (
     <Fragment>
-      <div className="test">Please login below</div>
+      <LoginForm />
     </Fragment>
   );
 };

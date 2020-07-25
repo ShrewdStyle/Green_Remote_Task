@@ -1,0 +1,38 @@
+.navbar {
+  font-size: 20px;
+  display: flex;
+  padding: 4rem 2rem;
+  width: 100%;
+  justify-content: center;
+
+  .logoMain {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 5px;
+    left: 300px;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      padding: 1rem;
+      color: #333;
+      margin: 0 0.5rem;
+
+      &:hover {
+        background-color: lightgray;
+        border-radius: 5px;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+.current a:active,
+.current a.active {
+  background-color: lightgray;
+  border-radius: 5px;
+}

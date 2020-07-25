@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
+import Welcome from "../Layout/Home/Welcome";
 
 const Home = () => {
   return (
     <Fragment>
-      <h1 className="testHeader">Green Remote Task</h1>
+      <Welcome />
     </Fragment>
   );
 };
