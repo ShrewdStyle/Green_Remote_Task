@@ -1,0 +1,15 @@
+@import "styles/config";
+@font-face {
+  src: url(./assets/Fonts/Gotham-Light.otf);
+  font-family: gotham;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: gotham;
+}
