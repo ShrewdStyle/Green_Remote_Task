@@ -8,3 +8,7 @@ Taking into account:
 - Responsive Design
 - Fonts
 - Client Design Requests
+
+![](src/assets/Images/README/readme1.png)
+
+![](src/assets/Images/README/readme2.png)
