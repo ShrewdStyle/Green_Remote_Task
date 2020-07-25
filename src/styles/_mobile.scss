@@ -1,0 +1,36 @@
+// ----------- MOBILE DEVICES -------------
+
+// Navbar
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 8rem 2rem 4rem 2rem;
+
+    .logoMain {
+      left: 40%;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    .logoMain {
+      left: 35%;
+    }
+  }
+}
+
+// Home Page
+
+@media (max-width: 600px) {
+  .homeContainer {
+    padding: 5% 10%;
+  }
+}
+
+@media (max-width: 430px) {
+  .homeContainer {
+    .welcomeHeader {
+      font-size: 2.4rem;
+    }
+  }
+}

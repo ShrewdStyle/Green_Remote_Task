@@ -7,6 +7,7 @@
 
 .homeContainer {
   padding: 5%;
+  height: 90vh;
 
   .welcomeHeader {
     color: green;
@@ -22,8 +23,9 @@
 // Login Page
 
 .loginContainer {
-  padding: 8% 5%;
+  padding: 10rem 5%;
   background-color: #f2f2f2;
+  height: 90vh;
 
   .loginForm {
     display: flex;

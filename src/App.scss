@@ -1,5 +1,7 @@
 @import "styles/config";
 @import "styles/navbar";
+@import "styles/footer";
+@import "styles/mobile";
 @font-face {
   src: url(./assets/Fonts/Gotham-Light.otf);
   font-family: gotham;
@@ -13,6 +15,7 @@
 
 body {
   font-family: gotham;
+  line-height: 1.3;
 }
 
 // ------------- UTILITIES --------------
