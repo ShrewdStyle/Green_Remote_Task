@@ -9,6 +9,11 @@ Taking into account:
 - Fonts
 - Client Design Requests
 
+
+Basic landing page added
+
 ![](src/assets/Images/README/readme1.png)
+
+Login form created
 
 ![](src/assets/Images/README/readme2.png)
